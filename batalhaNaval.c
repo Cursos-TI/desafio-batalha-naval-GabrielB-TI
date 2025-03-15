@@ -10,5 +10,11 @@ int main() {
         }
     }
    
+    printf("\n TABULEIRO BATALHA NAVAL \n");
+    for (int x = 0; x < 10; x++) {
+        for (int y = 0; y < 10; y++) {
+            printf("%d", tabuleiro[x][y]);
+        }
+    
     return 0;
 }
